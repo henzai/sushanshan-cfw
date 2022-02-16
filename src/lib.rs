@@ -31,7 +31,7 @@ pub async fn main(req: Request, env: Env) -> Result<Response> {
             let text = translator.translate("apple").await?;
             Response::ok(text)
         })
-        .post_async("/sushanshan", |req, ctx| async move {
+        .post_async("/yangbingyi", |req, ctx| async move {
             handle_su_shan_shan(req, ctx).await
         })
         .run(req, env)

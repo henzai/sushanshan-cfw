@@ -1,7 +1,10 @@
-name = "sushanshan"
+name = "yangbingyi"
 type = "javascript"
 # workers_dev = true
 compatibility_date = "2022-01-26"
+route = "api.ranwei.dev/*"
+zone_id = "10a94d72247d5cafadd0d0b960a4b8db"
+account_id = "78dba5fdfff6440c608bdf8ca1a5dd70"
 
 [vars]
 WORKERS_RS_VERSION = "0.0.7"
