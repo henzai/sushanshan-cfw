@@ -454,22 +454,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c307a32c1c5c437f38c7fd45d753050587732ba8628319fbdf12a7e289ccc590"
 
 [[package]]
-name = "sushanshan"
-version = "0.1.0"
-dependencies = [
- "cfg-if 0.1.10",
- "console_error_panic_hook",
- "ed25519-compact",
- "getrandom",
- "hex",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "worker",
-]
-
-[[package]]
 name = "syn"
 version = "1.0.75"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -750,4 +734,20 @@ dependencies = [
  "js-sys",
  "wasm-bindgen",
  "web-sys",
+]
+
+[[package]]
+name = "yangbingyi"
+version = "0.1.0"
+dependencies = [
+ "cfg-if 0.1.10",
+ "console_error_panic_hook",
+ "ed25519-compact",
+ "getrandom",
+ "hex",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "worker",
 ]
